@@ -59,7 +59,9 @@
         <li class="nav-item">
           <a class="nav-link" href="ressources-mentions.html">Mentions & Ressources</a>
         </li>
-        
+         <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#contactModal"  href="">Contact</a>
+        </li>
     </div>
   </div>
 </nav>
@@ -266,9 +268,56 @@
 
 <p class="text-center" > Et bien d'autres choses ...</p>
 
-<!-- Titre: Mes projets -->
+<!-- Mes projets -->
+
+<!-- Modal Contact Form-->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Formulaire de contact
+          
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form 
+        action="https://formspree.io/f/mrgjrdrk"
+        method="POST">
 
 
+        <div class="form-group">
+          <label for="nom">Entrez votre nom</label>
+          <input type="name" name="Nom" class="form-control" placeholder="Prénom Nom">
+        </div>
+        
+        <div class="form-group">
+          <label  for="email">Entrez votre adresse mail</label>
+          <input type="email" class="form-control" name="Email" placeholder="email@boitemail.com">
+        </div>
+
+
+        <div class="form-group">
+          <label for="bio">Entrez votre message</label>
+          <textarea class="form-control" name="Message"  rows="4" placeholder="Votre message"></textarea>
+        </div>
+     
+      
+     
+
+      </div>
+      <div class="modal-footer">
+           <!-- your other form fields go here -->
+
+           <button  type="submit" class="btn btn-primary "><i class="fa fa-solid fa-paper-plane"></i>  Envoyer</button>
+
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
 
