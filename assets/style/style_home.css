@@ -8,7 +8,7 @@ body{font-family: 'Varela Round', sans-serif !important; background-color: #f1f1
 .nav-link{font-size: 120%;color: white !important;}
 .nav-link:hover{
   color: #788092 !important;
-  }
+  } 
 .navbar-brand{font-size: 200% !important;font-family: 'Permanent Marker', cursive; }
 
 .navbar-toggler{background-color: grey !important; border-radius: 20% }
