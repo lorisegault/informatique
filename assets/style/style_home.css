@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body{font-family: 'Varela Round', sans-serif !important; background-color: #f1f1f1!important}
 .carousel-inner img {
@@ -32,7 +31,6 @@ padding-top: 0% !important
     font-weight: 900;
     font-size: 3.5em;
     text-align: center;
-    font-family: 'Rock Salt', cursive;
 }
 .about-me{
 
