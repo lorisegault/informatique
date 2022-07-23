@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 body{font-family: 'Varela Round', sans-serif !important; background-color: #f1f1f1!important}
 .carousel-inner img {
     width : 100%;
@@ -27,6 +27,7 @@ padding-top: 0% !important
 .carousel-inner img{padding-top: 500px}}
 
 .welcome {
+    font-family: 'Raleway', sans-serif;
     padding-top: 2.1%;
     font-weight: 900;
     font-size: 3.5em;
