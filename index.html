@@ -152,6 +152,18 @@
 
 <!-- Text : Welcome -->
 
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Evolution du site web</h4>
+      </div>
+      <div class="modal-body">
+        <p>Ce site Web va devenir: <a href="https://loris-egault.fr">loris-egault.fr</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- About Me -->
@@ -515,7 +527,9 @@
 <script>
 
 AOS.init();
-
+$(document).ready(function(){
+    $('#myModal').modal('show');
+});
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.welcome');
